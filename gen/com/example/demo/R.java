@@ -16,19 +16,20 @@ public final class R {
     public static final class id {
         public static final int password=0x7f060001;
         public static final int sign_in_button=0x7f060002;
-        public static final int sign_out_button=0x7f060003;
         public static final int username=0x7f060000;
+        public static final int welcome_msg=0x7f060003;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
-        public static final int activity_logout=0x7f030001;
+        public static final int activity_welcome=0x7f030001;
     }
     public static final class string {
-        public static final int action_sign_in_register=0x7f040004;
-        public static final int action_sign_out=0x7f040001;
+        public static final int action_sign_in_register=0x7f040003;
         public static final int app_name=0x7f040000;
-        public static final int prompt_password=0x7f040003;
-        public static final int prompt_username=0x7f040002;
+        public static final int ok=0x7f040005;
+        public static final int prompt_password=0x7f040002;
+        public static final int prompt_username=0x7f040001;
+        public static final int welcome=0x7f040004;
     }
     public static final class style {
         /** 

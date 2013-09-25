@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="main" tests="3" suites="0" errors="0" failures="0" skipped="0" starttime="1380092388253" stoptime="1380092455857" timestamp="2013-09-25T14:59:48" time="67.600">
+	<testcase name="login.mt[username='aa' pwd='123aa']" starttime="1380092388253" stoptime="1380092410914" time="22.661" />
+	<testcase name="login.mt[username='bb' pwd='123']" starttime="1380092410916" stoptime="1380092433413" time="22.497" />
+	<testcase name="login.mt[username='ccc' pwd='34d']" starttime="1380092433415" stoptime="1380092455857" time="22.442" />
+</testsuite>

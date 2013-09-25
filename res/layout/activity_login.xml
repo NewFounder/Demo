@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/prompt_username"
         android:maxLines="1"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
         android:singleLine="true" />
 
     <EditText
@@ -22,6 +24,7 @@
         android:hint="@string/prompt_password"
         android:inputType="textPassword"
         android:maxLines="1"
+        android:padding="20dp"
         android:singleLine="true" />
 
     <Button

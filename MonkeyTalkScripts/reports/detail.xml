@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2013-09-25 15:00:55.869 CST">
+    <suite  comp="Suite" id="main.mts" action="Run" raw="Suite main.mts Run %thinktime=500 %timeout=2000" idx="0" start="1380092388248" stop="1380092455861" duration="67.613" result="OK" tests="3" errors="0" failures="0" skipped="0">
+        <test  comp="Test" id="login.mt" action="RunWith" args="accounts.csv" raw="Test login.mt RunWith accounts.csv %thinktime=500 %timeout=2000" idx="0" start="1380092388252" stop="1380092455860" duration="67.608" result="OK">
+            <test  comp="Test" id="login.mt" action="RunWith" args="accounts.csv[@1]" raw="Test login.mt RunWith accounts.csv[@1] %thinktime=500 %timeout=2000" idx="1" start="1380092388256" stop="1380092410914" duration="22.658" result="OK" dataIndex="1">
+                <cmd  comp="Vars" id="*" action="Define" args="username pwd" raw="Vars * Define username pwd %thinktime=500 %timeout=5000" idx="0" start="1380092388256" stop="1380092388257" duration="0.001" result="OK">
+                </cmd>
+                <cmd  comp="Input" id="UserName" action="enterText" args="aa" raw="Input UserName enterText aa %thinktime=500 %timeout=5000" idx="1" start="1380092388257" stop="1380092393599" duration="5.342" result="OK">
+                    <msg><![CDATA[View with monkeyID #2 is being clipped. ]]>
+                    </msg>
+                </cmd>
+                <cmd  comp="Input" id="Password" action="enterText" args="123aa" raw="Input Password enterText 123aa %thinktime=500 %timeout=5000" idx="2" start="1380092393600" stop="1380092398684" duration="5.084" result="OK">
+                </cmd>
+                <cmd  comp="Button" id="Sign in or register" action="tap" raw="Button &quot;Sign in or register&quot; tap %thinktime=500 %timeout=5000" idx="3" start="1380092398684" stop="1380092403733" duration="5.049" result="OK">
+                </cmd>
+                <cmd  comp="Label" id="welcome_msg" action="Verify" args="&quot;Welcome to my world!!!&quot;" raw="Label welcome_msg Verify &quot;Welcome to my world!!!&quot; %thinktime=500 %timeout=5000" idx="4" start="1380092403733" stop="1380092408861" duration="5.128" result="OK">
+                </cmd>
+                <cmd  comp="Device" id="*" action="back" raw="Device * back %thinktime=500 %timeout=5000" idx="5" start="1380092408862" stop="1380092410914" duration="2.052" result="OK">
+                    <msg><![CDATA[View with monkeyID #2 is being clipped. ]]>
+                    </msg>
+                </cmd>
+            </test>
+            <test  comp="Test" id="login.mt" action="RunWith" args="accounts.csv[@2]" raw="Test login.mt RunWith accounts.csv[@2] %thinktime=500 %timeout=2000" idx="2" start="1380092410919" stop="1380092433413" duration="22.494" result="OK" dataIndex="2">
+                <cmd  comp="Vars" id="*" action="Define" args="username pwd" raw="Vars * Define username pwd %thinktime=500 %timeout=5000" idx="0" start="1380092410919" stop="1380092410919" duration="0.0" result="OK">
+                </cmd>
+                <cmd  comp="Input" id="UserName" action="enterText" args="bb" raw="Input UserName enterText bb %thinktime=500 %timeout=5000" idx="1" start="1380092410920" stop="1380092416013" duration="5.093" result="OK">
+                </cmd>
+                <cmd  comp="Input" id="Password" action="enterText" args="123" raw="Input Password enterText 123 %thinktime=500 %timeout=5000" idx="2" start="1380092416013" stop="1380092421099" duration="5.086" result="OK">
+                </cmd>
+                <cmd  comp="Button" id="Sign in or register" action="tap" raw="Button &quot;Sign in or register&quot; tap %thinktime=500 %timeout=5000" idx="3" start="1380092421101" stop="1380092426198" duration="5.097" result="OK">
+                </cmd>
+                <cmd  comp="Label" id="welcome_msg" action="Verify" args="&quot;Welcome to my world!!!&quot;" raw="Label welcome_msg Verify &quot;Welcome to my world!!!&quot; %thinktime=500 %timeout=5000" idx="4" start="1380092426199" stop="1380092431288" duration="5.089" result="OK">
+                </cmd>
+                <cmd  comp="Device" id="*" action="back" raw="Device * back %thinktime=500 %timeout=5000" idx="5" start="1380092431288" stop="1380092433413" duration="2.125" result="OK">
+                    <msg><![CDATA[View with monkeyID #2 is being clipped. ]]>
+                    </msg>
+                </cmd>
+            </test>
+            <test  comp="Test" id="login.mt" action="RunWith" args="accounts.csv[@3]" raw="Test login.mt RunWith accounts.csv[@3] %thinktime=500 %timeout=2000" idx="3" start="1380092433418" stop="1380092455857" duration="22.439" result="OK" dataIndex="3">
+                <cmd  comp="Vars" id="*" action="Define" args="username pwd" raw="Vars * Define username pwd %thinktime=500 %timeout=5000" idx="0" start="1380092433418" stop="1380092433418" duration="0.0" result="OK">
+                </cmd>
+                <cmd  comp="Input" id="UserName" action="enterText" args="ccc" raw="Input UserName enterText ccc %thinktime=500 %timeout=5000" idx="1" start="1380092433418" stop="1380092438479" duration="5.061" result="OK">
+                </cmd>
+                <cmd  comp="Input" id="Password" action="enterText" args="34d" raw="Input Password enterText 34d %thinktime=500 %timeout=5000" idx="2" start="1380092438479" stop="1380092443610" duration="5.131" result="OK">
+                </cmd>
+                <cmd  comp="Button" id="Sign in or register" action="tap" raw="Button &quot;Sign in or register&quot; tap %thinktime=500 %timeout=5000" idx="3" start="1380092443610" stop="1380092448664" duration="5.054" result="OK">
+                </cmd>
+                <cmd  comp="Label" id="welcome_msg" action="Verify" args="&quot;Welcome to my world!!!&quot;" raw="Label welcome_msg Verify &quot;Welcome to my world!!!&quot; %thinktime=500 %timeout=5000" idx="4" start="1380092448664" stop="1380092453743" duration="5.079" result="OK">
+                </cmd>
+                <cmd  comp="Device" id="*" action="back" raw="Device * back %thinktime=500 %timeout=5000" idx="5" start="1380092453743" stop="1380092455857" duration="2.114" result="OK">
+                    <msg><![CDATA[View with monkeyID #2 is being clipped. ]]>
+                    </msg>
+                </cmd>
+            </test>
+        </test>
+    </suite>
+</detail>
