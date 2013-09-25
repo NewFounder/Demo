@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">POC</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="prompt_username">UserName</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+
+</resources>
